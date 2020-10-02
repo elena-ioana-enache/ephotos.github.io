@@ -1,0 +1,36 @@
+.ImageViwer{
+    background-color: black;
+    width: 100vw;
+    height:calc(100vh - 72px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.Image{
+    height: 500px;
+}
+.BackButton {
+    position: absolute;
+    top: 7%;
+    right: 94%;
+}
+.LeftButton{
+    position: absolute;
+    top: 47%;
+    right: 94%;
+    color:#1a1a1a;
+  }
+  .LeftButton:hover{
+    color:gray;
+  }
+ 
+  .RightButton{
+    position: absolute;
+    top: 47%;
+    left: 94%;
+    color:#1a1a1a;
+  }
+  .RightButton:hover{
+    color:gray;
+  }
